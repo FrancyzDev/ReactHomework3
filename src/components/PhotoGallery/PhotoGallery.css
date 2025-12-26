@@ -1,0 +1,17 @@
+.photoGallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 10rem;
+}
+
+.photoGallery-text {
+    font-size: 36px;
+    color: white;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 400px;
+    height: 400px;
+}
